@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Fitness Challenge")>
+<Assembly: AssemblyTitle("Mod6B")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Fitness Challenge")>
+<Assembly: AssemblyProduct("Mod6B")>
 <Assembly: AssemblyCopyright("Copyright ©  2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("055a9cce-7a18-47b5-bc77-527856c4b4ad")>
+<Assembly: Guid("9661fbd8-c3a6-48a6-bdcc-f6949722625e")>
 
 ' Version information for an assembly consists of the following four values:
 '
