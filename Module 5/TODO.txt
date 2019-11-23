@@ -1,0 +1,8 @@
+1. Complete the Guided Program Development from pages 277 to 287. Submit as a zipped file.
+
+2. Provide examples for each case listed below on how would you use:
+    a. If then statement in a program. 
+    b. If then else if statement in a program
+    c. Nested if statement in a program
+
+3. How would you write code to determine the choice made by the user from a drop down box?
