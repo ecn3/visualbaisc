@@ -1,0 +1,4 @@
+2. Complete the initial documentation for your Final Project. Submit as a zipped file.
+    a. Create the requirements document, (refer to page 141 for ideas)
+    b. Create a Use Case Definition document (refer to page 142 for ideas)
+    c. Design a Windows form mock-up (refer to figures 3-77a, 3-77b and 3-77c for ideas)
