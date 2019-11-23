@@ -47,4 +47,17 @@ Public Class frmDecking
             txtFootage.Focus()
         End If
     End Sub
+
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        txtFootage.Clear()
+        lblCostEstumate.Text = ""
+        radLumber.Checked = True
+        radRedwood.Checked = False
+        radComposite.Checked = False
+        txtFootage.Focus()
+    End Sub
+    Private Sub frmDecking_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtFootage.Focus()
+        lblCostEstumate.Text = ""
+    End Sub
 End Class

@@ -22,12 +22,13 @@ Partial Class frmDecking
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmDecking))
         Me.lblHeading = New System.Windows.Forms.Label()
         Me.lblSquareFeet = New System.Windows.Forms.Label()
         Me.txtFootage = New System.Windows.Forms.TextBox()
         Me.grpDeckType = New System.Windows.Forms.GroupBox()
-        Me.radLumber = New System.Windows.Forms.RadioButton()
         Me.radComposite = New System.Windows.Forms.RadioButton()
+        Me.radLumber = New System.Windows.Forms.RadioButton()
         Me.radRedwood = New System.Windows.Forms.RadioButton()
         Me.lblCost = New System.Windows.Forms.Label()
         Me.lblCostEstumate = New System.Windows.Forms.Label()
@@ -86,18 +87,6 @@ Partial Class frmDecking
         Me.grpDeckType.TabStop = False
         Me.grpDeckType.Text = "Deck Type"
         '
-        'radLumber
-        '
-        Me.radLumber.AutoSize = True
-        Me.radLumber.ForeColor = System.Drawing.Color.Sienna
-        Me.radLumber.Location = New System.Drawing.Point(20, 19)
-        Me.radLumber.Name = "radLumber"
-        Me.radLumber.Size = New System.Drawing.Size(218, 27)
-        Me.radLumber.TabIndex = 0
-        Me.radLumber.TabStop = True
-        Me.radLumber.Text = "Pressure-Treated Lumber"
-        Me.radLumber.UseVisualStyleBackColor = True
-        '
         'radComposite
         '
         Me.radComposite.AutoSize = True
@@ -109,6 +98,18 @@ Partial Class frmDecking
         Me.radComposite.TabStop = True
         Me.radComposite.Text = "Composite"
         Me.radComposite.UseVisualStyleBackColor = True
+        '
+        'radLumber
+        '
+        Me.radLumber.AutoSize = True
+        Me.radLumber.ForeColor = System.Drawing.Color.Sienna
+        Me.radLumber.Location = New System.Drawing.Point(20, 19)
+        Me.radLumber.Name = "radLumber"
+        Me.radLumber.Size = New System.Drawing.Size(218, 27)
+        Me.radLumber.TabIndex = 0
+        Me.radLumber.TabStop = True
+        Me.radLumber.Text = "Pressure-Treated Lumber"
+        Me.radLumber.UseVisualStyleBackColor = True
         '
         'radRedwood
         '
@@ -168,7 +169,7 @@ Partial Class frmDecking
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Decking_Cost_Calculator.My.Resources.Resources.picDeck
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.InitialImage = Nothing
         Me.PictureBox1.Location = New System.Drawing.Point(370, 2)
         Me.PictureBox1.Name = "PictureBox1"
