@@ -168,7 +168,7 @@ Partial Class frmDecking
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Decking_Cost_Calculator.My.Resources.Resources.deck
+        Me.PictureBox1.Image = Global.Decking_Cost_Calculator.My.Resources.Resources.picDeck
         Me.PictureBox1.InitialImage = Nothing
         Me.PictureBox1.Location = New System.Drawing.Point(370, 2)
         Me.PictureBox1.Name = "PictureBox1"
