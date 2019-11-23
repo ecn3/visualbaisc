@@ -1,0 +1,15 @@
+1. Complete Case Programming Assignment 4 (Spring Break Travel Specials) on page 144. Submit as a zipped file.
+    a. Create a Use Case Definition document
+    b. Design a Windows form mock-up based on the requirements document (Figure 3-79).
+
+Time to start on your Final Project. The purpose and design of the application is entirely up to you. However, your final project must fulfill the following requirements:
+    a. Documentation: Requirements document, Use Case Definition Document, Windows form mock-up
+    b. Appearance: Good visual effects with images, colors, controls on your forms etc.
+    c. Functional: Buttons to perform calculations, clearing contents, exiting the program
+Note: You are not required to implement the application described in Module 1 as your final project.
+
+2. Complete the initial documentation for your Final Project. Submit as a zipped file.
+    a. Create the requirements document, (refer to page 141 for ideas)
+    b. Create a Use Case Definition document (refer to page 142 for ideas)
+    c. Design a Windows form mock-up (refer to figures 3-77a, 3-77b and 3-77c for ideas)
+Note: You can still refine the documents/requirements of your application if need be after this module.
