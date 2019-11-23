@@ -104,11 +104,15 @@ Partial Class Form1
         Me.lblAverageLoss.Size = New System.Drawing.Size(386, 29)
         Me.lblAverageLoss.TabIndex = 4
         Me.lblAverageLoss.Text = "Average Weight loss is XX.X lbs"
+        Me.lblAverageLoss.Visible = False
         '
         'Form1
         '
+        Me.AcceptButton = Me.btnWeightLoss
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.Fitness_Challenge.My.Resources.Resources.healthImage
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(867, 438)
         Me.Controls.Add(Me.lblAverageLoss)
         Me.Controls.Add(Me.lstWeightLoss)
