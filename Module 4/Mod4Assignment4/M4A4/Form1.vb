@@ -30,5 +30,18 @@
 
         Dim formattedValue As String = String.Format("{0:n}", grossTwoWeekPay)
         Label9.Text = "$" + formattedValue
+
+        formattedValue = String.Format("{0:n}", ficaTax)
+        Label12.Text = "$" + formattedValue
+
+        formattedValue = String.Format("{0:n}", federalTax)
+        Label11.Text = "$" + formattedValue
+
+        formattedValue = String.Format("{0:n}", stateIncomeTax)
+        Label10.Text = "$" + formattedValue
+
+        formattedValue = String.Format("{0:n}", adjustedTwoWeekPay)
+        Label8.Text = "$" + formattedValue
+
     End Sub
 End Class
