@@ -1,0 +1,13 @@
+1. Complete Case Programming Assignment 4 (Payroll Calculator) on page 224. Submit as a zipped file.
+    a. Create a Use Case Definition document
+    b. Create an event-planning document
+    c. Design a functional application that will execute according to the requirements document (Figure 4-98).
+
+2. Complete Case Programming Assignment 6 (Fitness Tracker App) on page 226. Submit as a zipped file.
+    a. Create a Requirements Document
+    b. Create a Use Case Definition document
+    c. Create an event-planning document
+    d. Design a functional application that will execute according to the case project (Figure 4-100).
+
+At this point in the semester your Final Project should be starting to take shape. You should be adding buttons, text boxes, labels, etc to your application. Some or all of your buttons may already have code associated with them. You do not need to submit a draft of your Final Project to the drop box.
+
