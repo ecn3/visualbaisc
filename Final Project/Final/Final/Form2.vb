@@ -39,5 +39,6 @@
 
     Private Sub confirmBtn_Click(sender As Object, e As EventArgs) Handles confirmBtn.Click
         Form1.pic.Image = chosenDuck
+        Me.Close()
     End Sub
 End Class

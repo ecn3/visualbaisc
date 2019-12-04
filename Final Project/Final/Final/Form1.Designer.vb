@@ -24,8 +24,8 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.changeColorBtn = New System.Windows.Forms.Button()
         Me.changeThemeBtn = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.clearBtn = New System.Windows.Forms.Button()
+        Me.purchaseBtn = New System.Windows.Forms.Button()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.pic = New System.Windows.Forms.PictureBox()
@@ -38,7 +38,7 @@ Partial Class Form1
         Me.changeColorBtn.Name = "changeColorBtn"
         Me.changeColorBtn.Size = New System.Drawing.Size(75, 23)
         Me.changeColorBtn.TabIndex = 1
-        Me.changeColorBtn.Text = "Color"
+        Me.changeColorBtn.Text = "Skin Color"
         Me.changeColorBtn.UseVisualStyleBackColor = True
         '
         'changeThemeBtn
@@ -47,26 +47,26 @@ Partial Class Form1
         Me.changeThemeBtn.Name = "changeThemeBtn"
         Me.changeThemeBtn.Size = New System.Drawing.Size(75, 23)
         Me.changeThemeBtn.TabIndex = 2
-        Me.changeThemeBtn.Text = "Themes"
+        Me.changeThemeBtn.Text = "Theme"
         Me.changeThemeBtn.UseVisualStyleBackColor = True
         '
-        'Button3
+        'clearBtn
         '
-        Me.Button3.Location = New System.Drawing.Point(29, 91)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Style"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.clearBtn.Location = New System.Drawing.Point(29, 91)
+        Me.clearBtn.Name = "clearBtn"
+        Me.clearBtn.Size = New System.Drawing.Size(75, 23)
+        Me.clearBtn.TabIndex = 3
+        Me.clearBtn.Text = "Clear"
+        Me.clearBtn.UseVisualStyleBackColor = True
         '
-        'Button4
+        'purchaseBtn
         '
-        Me.Button4.Location = New System.Drawing.Point(29, 144)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "Purchase"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.purchaseBtn.Location = New System.Drawing.Point(29, 144)
+        Me.purchaseBtn.Name = "purchaseBtn"
+        Me.purchaseBtn.Size = New System.Drawing.Size(75, 23)
+        Me.purchaseBtn.TabIndex = 4
+        Me.purchaseBtn.Text = "Purchase"
+        Me.purchaseBtn.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -92,8 +92,8 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.purchaseBtn)
+        Me.Controls.Add(Me.clearBtn)
         Me.Controls.Add(Me.changeThemeBtn)
         Me.Controls.Add(Me.changeColorBtn)
         Me.Controls.Add(Me.pic)
@@ -108,8 +108,8 @@ Partial Class Form1
     Friend WithEvents pic As PictureBox
     Friend WithEvents changeColorBtn As Button
     Friend WithEvents changeThemeBtn As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents clearBtn As Button
+    Friend WithEvents purchaseBtn As Button
     Friend WithEvents ColorDialog1 As ColorDialog
     Friend WithEvents Label1 As Label
 End Class
