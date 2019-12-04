@@ -22,25 +22,15 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.changeColorBtn = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.changeThemeBtn = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
         Me.Label1 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pic = New System.Windows.Forms.PictureBox()
+        CType(Me.pic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Final.My.Resources.Resources.plainYellowDuck
-        Me.PictureBox1.Location = New System.Drawing.Point(389, 33)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(337, 282)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
         '
         'changeColorBtn
         '
@@ -51,14 +41,14 @@ Partial Class Form1
         Me.changeColorBtn.Text = "Color"
         Me.changeColorBtn.UseVisualStyleBackColor = True
         '
-        'Button2
+        'changeThemeBtn
         '
-        Me.Button2.Location = New System.Drawing.Point(29, 62)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Themes"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.changeThemeBtn.Location = New System.Drawing.Point(29, 62)
+        Me.changeThemeBtn.Name = "changeThemeBtn"
+        Me.changeThemeBtn.Size = New System.Drawing.Size(75, 23)
+        Me.changeThemeBtn.TabIndex = 2
+        Me.changeThemeBtn.Text = "Themes"
+        Me.changeThemeBtn.UseVisualStyleBackColor = True
         '
         'Button3
         '
@@ -86,6 +76,16 @@ Partial Class Form1
         Me.Label1.Size = New System.Drawing.Size(0, 13)
         Me.Label1.TabIndex = 5
         '
+        'pic
+        '
+        Me.pic.Image = Global.Final.My.Resources.Resources.plainYellowDuck
+        Me.pic.Location = New System.Drawing.Point(389, 33)
+        Me.pic.Name = "pic"
+        Me.pic.Size = New System.Drawing.Size(337, 282)
+        Me.pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic.TabIndex = 0
+        Me.pic.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -94,20 +94,20 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.changeThemeBtn)
         Me.Controls.Add(Me.changeColorBtn)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.pic)
         Me.Name = "Form1"
-        Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Text = "Choose a duck"
+        CType(Me.pic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents pic As PictureBox
     Friend WithEvents changeColorBtn As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents changeThemeBtn As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents ColorDialog1 As ColorDialog

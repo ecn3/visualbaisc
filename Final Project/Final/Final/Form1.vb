@@ -5,4 +5,9 @@
             changeColorBtn.ForeColor = ColorDialog1.Color
         End If
     End Sub
+
+    Private Sub changeThemeBtn_Click(sender As Object, e As EventArgs) Handles changeThemeBtn.Click
+        Dim MyForm As New Form2
+        MyForm.Show()
+    End Sub
 End Class

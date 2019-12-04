@@ -63,9 +63,89 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property artisitDuck() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("artisitDuck", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property cowboyDuck() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cowboyDuck", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property heroDuck() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("heroDuck", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property plainYellowDuck() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("plainYellowDuck", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property presidentDuck() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("presidentDuck", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property redRubberDuck() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("redRubberDuck", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property spaceDuck() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("spaceDuck", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property sportsDuck() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("sportsDuck", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property turtleDuck() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("turtleDuck", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
